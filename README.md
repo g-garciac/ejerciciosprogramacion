@@ -4,6 +4,7 @@
 ### Lista de ejercicios
 * *#001* - `Sumatoria de múltiplos de 3 o 5`
 * *#002* - `Sumatoria de pares de la serie de números de Fibonnacci`
+* *#003* - `Lista de números primos circulares`
 
 ### Cómo participar
 * Haz un fork del repo y clónalo para que trabajes con él.
