@@ -7,6 +7,7 @@
 * *#001* - `Sumatoria de múltiplos de 3 o 5`
 * *#002* - `Sumatoria de pares de la serie de números de Fibonnacci`
 * *#003* - `Lista de números primos circulares`
+* *#004* - `Números divisibles por la suma de sus dígitos`
 
 ### Cómo participar
 
