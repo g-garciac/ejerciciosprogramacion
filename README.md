@@ -1,6 +1,6 @@
 # Ejercicios de programación C#
 
-## Ejercicios de programación empleando el lenguaje C #
+## Ejercicios de programación empleando el lenguaje C#
 
 ### Lista de ejercicios
 
@@ -9,6 +9,7 @@
 * *#003* - `Lista de números primos circulares`
 * *#004* - `Números divisibles por la suma de sus dígitos`
 * *#005* - `Sumatoria de números grandes`
+* *#006* - `Dos textos, mismos caracteres`
 
 ### Cómo participar
 
