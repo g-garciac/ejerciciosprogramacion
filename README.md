@@ -10,6 +10,7 @@
 * *#004* - `Números divisibles por la suma de sus dígitos`
 * *#005* - `Sumatoria de números grandes`
 * *#006* - `Dos textos, mismos caracteres`
+* *#007* - `Descomposición de cadena de caracteres en Pares`
 
 ### Cómo participar
 
