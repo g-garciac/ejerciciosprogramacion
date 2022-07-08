@@ -11,6 +11,7 @@
 * *#005* - `Sumatoria de números grandes`
 * *#006* - `Dos textos, mismos caracteres`
 * *#007* - `Descomposición de cadena de caracteres en Pares`
+* *#008* - `Concatenación de cadenas con sus caracteres`
 
 ### Cómo participar
 
