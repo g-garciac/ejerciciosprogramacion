@@ -29,5 +29,3 @@ El resultado debe ser:
 * `MaxDate` = `20 de septiembre 2022`
 * `Days` = `9-sep-2022`, `12-sep-2022`, `13-sep-2022`, `14-sep-2022`, `15-sep-2022`, `19-sep-2022`
 * `NoDays` = `10-sep-2022`, `11-sep-2022`, `16-sep-2022`, `17-sep-2022`, `18-sep-2022`
-
-Los resultados quedan así ya que dados los datos de entrada, las siguientes se consideran
