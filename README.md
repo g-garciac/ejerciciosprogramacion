@@ -13,6 +13,7 @@
 * *#007* - `Descomposición de cadena de caracteres en Pares`
 * *#008* - `Concatenación de cadenas con sus caracteres`
 * *#009* - `Repetición de vocales`
+* *#010* - `Días hábiles e inhábiles`
 
 ### Cómo participar
 
