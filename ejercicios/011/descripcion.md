@@ -32,7 +32,7 @@ h&a&l&o&h\\
 \end{array}\right)
 $$
 
-### Ejemplo 2
+### Ejemplo 3
 
 Para `t`=`yo.solo.se.que.no.se.nada`, y `n`=4
 El resultado debe ser:

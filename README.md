@@ -14,7 +14,8 @@
 * *#008* - `Concatenación de cadenas con sus caracteres`
 * *#009* - `Repetición de vocales`
 * *#010* - `Días hábiles e inhábiles`
-* *#011* - `Texto en espiral`
+* *#011* - `Texto en espiral`*
+* *#012* - `Los espejos`
 
 ### Cómo participar
 
