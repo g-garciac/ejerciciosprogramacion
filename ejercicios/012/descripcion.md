@@ -14,7 +14,7 @@ Consideraciones:
 
 Dicho esto, en algún momento se encienden los láseres y se pretende saber `r` y `p` para cada láser, donde:
 
-* `r` = Por cuántos espejos es reflejado el lásere antes de que el éste llegue a una de las paredes de la caja, o bien `-1` si el láser se quedara dando vueltas indefinidamente en los espejos sin llegar a ninguna pared de la caja.
+* `r` = Por cuántos espejos es reflejado el lásere antes de que éste llegue a una de las paredes de la caja, o bien `-1` si el láser se quedara dando vueltas indefinidamente en los espejos sin llegar a ninguna pared de la caja.
 * `p` = En caso de que el láser sí llegue a una de las paredes de la caja, se desea saber en cuál de las 4 paredes llega: pared norte `N`, pared sur `S`, pared este `E`, pared oeste `O` y en qué posición de la pared: entre `1` y `f` o entre `1` y `c` según corresponda la pared. Por ejemplo si el láser llega a la pared oeste en la fila 4, deberá indicarse como `O 4`. O bien `? ?` en caso de que el láser no llegue a ninguna pared de la caja.
 * Como `r` y `p` corresponde a un único láser, pero puede existir más de un láser, entonces deberá especificarse `r` y `p` precedidos por la especificación del láser seprados los tres elementos por una coma `,`. Por ejemplo supongamos que para el láser `O 3 1`, `r` es 4, y `p` es `?`, entonces el resultado debe indicarse así: `O 3 1,4,? ?`, si fueran más de un láser, éstos se separarían usando pipes `|`.
 
