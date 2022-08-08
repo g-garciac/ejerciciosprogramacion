@@ -16,10 +16,5 @@
 * *#010* - `Días hábiles e inhábiles`
 * *#011* - `Texto en espiral`*
 * *#012* - `Los espejos`
+* *#013* - `Número faltante`
 
-### Cómo participar
-
-* Haz un fork del repo y clónalo para que trabajes con él.
-* En la ruta `ejercicios/###` se encontrará un archivo con la descripción del ejercicio. `###` es el número de ejercicio.
-* Crea una carpeta con tu nombre de usuario Github con la ruta: `ejercicios/###/USERGITHUB` y allí coloca en un archivo .cs la solución al ejercicio. `###` es el número de ejercicio y `USERGITHUB` es tu nombre de usuario de GitHub.
-* Para enviar la solución de tu ejercicio, crea un Pull Request hacia la rama `main`.
