@@ -7,7 +7,7 @@ Dado un mapa rectangular de tamaño arbitrario `m`x`n`, dividido en áreas de di
 Consideraciones:
 * Una porción de área es aquella que tiene el mismo color de partes contiguas.
 * El área de una porción es la cantidad de partes contiguas y del mismo color que la conforman.
-* Una parte es contigua con otra si ambas son del mismo color y colindan por arriba, abajo, la izquierda o la derecha, pero no en diagonal.
+* Una parte es contigua con otra si ambas son del mismo color y colindan por arriba, abajo, la izquierda o la derecha. Pero no son contiguas si colindan en diagonal o por las esquinas.
 
 ### Ejemplo 1
 
