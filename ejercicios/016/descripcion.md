@@ -5,6 +5,7 @@
 Se tiene una caja fuerte cuya cerradura se abre girando discos concentricos: `D1`, `D2`,..., siendo `D1` el disco del exterior, los discos tienen una secuencia de caracteres. Para abrir la caja se giran los discos concentricos en sentido horario `SH` o en sentido contra horario `CH`. 
 
 Este es un ejemplo de una cerradura `C1` de tamaño 3, es decir, tiene un sólo disco `D1` (conformado por los caracteres ABCDEFGH):
+
 $$
 \left(\begin{array}{cc}
 A&B&C\\
@@ -12,7 +13,9 @@ H&I&D\\
 G&F&E\\
 \end{array}\right)
 $$
+
 Este es un ejemplo de una cerradura `C2` de tamaño 4, es decir, tiene dos discos (`D1` el exterior conformado por los caracteres ABCDHLPONMIE y `D2` el interior conformado por FGKJ):
+
 $$
 \left(\begin{array}{cc}
 A&B&C&D\\
@@ -25,6 +28,7 @@ $$
 Para dejar más claro el funcionamiento de giro de los discos, veámos unos ejemplos con las cerraduras anteriores `C1` y `C2`:
 
 * Si giramos tres veces el único disco `D1` de la cerradura `C1` en sentido horario `SH` (dicha acción se puede resumir como `D1 3 SH`), ahora la cerradura quedaría así:
+
 $$
 \left(\begin{array}{cc}
 F&G&H\\
@@ -32,7 +36,9 @@ E&I&A\\
 D&C&B\\
 \end{array}\right)
 $$
+
 * Si de la cerradura `C2` giramos una vez el disco uno `D1` en sentido contra horario `CH`, y giramos dos veces el disco `D2` en sentido horario `SH` (dicha acción se puede resumir como `D1 1 CH,D2 2 SH`), ahora la cerradura quedaría así:
+
 $$
 \left(\begin{array}{cc}
 B&C&D&H\\
@@ -47,6 +53,7 @@ Problema: Se pretende que dada una cerradura en estado cerrado, se determinen el
 ### Ejemplo
 
 Dada la siguiente cerradura en estado abierto:
+
 $$
 \left(\begin{array}{cc}
 A&P&R&O&G&R\\
@@ -57,7 +64,9 @@ A&M&A&N&D&O\\
 M&U&C&H&O&O\\
 \end{array}\right)
 $$
+
 Y su análogo estado cerrado:
+
 $$
 \left(\begin{array}{cc}
 C&U&M&A&E&A\\
