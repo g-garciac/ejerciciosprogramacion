@@ -21,4 +21,5 @@
 * *#015* - `Buque portacontenedores`
 * *#016* - `Caja fuerte`
 * *#017* - `Esferas magnéticas`
+* *#018* - `Mínimo absoluto circular`
 
