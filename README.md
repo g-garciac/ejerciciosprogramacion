@@ -20,4 +20,5 @@
 * *#014* - `El área más grande`
 * *#015* - `Buque portacontenedores`
 * *#016* - `Caja fuerte`
+* *#017* - `Esferas magnéticas`
 
