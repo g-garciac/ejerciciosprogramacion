@@ -7,16 +7,16 @@ Se tiene una caja de madera dividida en `f`x`c` partes, es decir, `f` filas por 
 Consideraciones:
 * La fila `1` se encuentra en el sur de la caja o lado inferior, y la fila `f` se encuentra en el norte o lado superior. 
 * La columna `1` se encuentra en el oeste o lado izquierdo de la caja, y la columna `c` se encuentra en el este o lado derecho de la caja.
-* `e` es un conjunto de espejos donde cada es pejo está dado por su orientación o inclinación: `/` o `\` seguido de un espacio, seguido de la fila, seguido de la columna. Por ejemplo, `\ 3 2,/ 1 4` representa dos espejos: uno inclinado a la izquierda colocado en la fila 3 y columna dos; y otro inclinado a la derecha en la fila 1 y columna 4.
+* `e` es un conjunto de espejos donde cada espejo está dado por su orientación o inclinación: `/` o `\` seguido de un espacio, seguido de la fila, seguido de la columna. Por ejemplo, `\ 3 2,/ 1 4` representa dos espejos: uno inclinado a la izquierda colocado en la fila 3 y columna dos; y otro inclinado a la derecha en la fila 1 y columna 4.
 * Los espejos reflectan por ambos lados y siempre su inclinación está a 45 o 135 grados respecto a la parte sur de la caja, lo que implica que un espejo siempre desviará el láser que incida en él en un ángulo de 90 grados.
-* `l` es un conjunto de láseres donde cada láser está dado por la dirección a la que apunta, seguido de un espacio, seguido de la fila, seguido de un espacio, seguido de la columna. Por ejemplo `O 3 1,N 7 3` representa dos láseres: uno apuntado o dirigido hacia el oeste y en la fila 3 y columna 1; y el otro hacial el norte en la fila 7 y la columna 3.
+* `l` es un conjunto de láseres donde cada láser está dado por la dirección a la que apunta, seguido de un espacio, seguido de la fila, seguido de un espacio, seguido de la columna. Por ejemplo `O 3 1,N 7 3` representa dos láseres: uno apuntado o dirigido hacia el oeste y en la fila 3 y columna 1; y el otro hacia el norte en la fila 7 y la columna 3.
 * Los láseres nunca se colocarán en la misma posición que un espejo u otro láser.
 
 Dicho esto, en algún momento se encienden los láseres y se pretende saber `r` y `p` para cada láser, donde:
 
-* `r` = Por cuántos espejos es reflejado el lásere antes de que éste llegue a una de las paredes de la caja, o bien `-1` si el láser se quedara dando vueltas indefinidamente en los espejos sin llegar a ninguna pared de la caja.
+* `r` = Por cuántos espejos es reflejado el láser antes de que éste llegue a una de las paredes de la caja, o bien `-1` si el láser se quedara dando vueltas indefinidamente en los espejos sin llegar a ninguna pared de la caja.
 * `p` = En caso de que el láser sí llegue a una de las paredes de la caja, se desea saber en cuál de las 4 paredes llega: pared norte `N`, pared sur `S`, pared este `E`, pared oeste `O` y en qué posición de la pared: entre `1` y `f` o entre `1` y `c` según corresponda la pared. Por ejemplo si el láser llega a la pared oeste en la fila 4, deberá indicarse como `O 4`. O bien `? ?` en caso de que el láser no llegue a ninguna pared de la caja.
-* Como `r` y `p` corresponde a un único láser, pero puede existir más de un láser, entonces deberá especificarse `r` y `p` precedidos por la especificación del láser seprados los tres elementos por una coma `,`. Por ejemplo supongamos que para el láser `O 3 1`, `r` es 4, y `p` es `?`, entonces el resultado debe indicarse así: `O 3 1,4,? ?`, si fueran más de un láser, éstos se separarían usando pipes `|`.
+* Como `r` y `p` corresponde a un único láser, pero puede existir más de un láser, entonces deberá especificarse `r` y `p` precedidos por la especificación del láser separados los tres elementos por una coma `,`. Por ejemplo supongamos que para el láser `O 3 1`, `r` es 4, y `p` es `?`, entonces el resultado debe indicarse así: `O 3 1,4,? ?`, si fueran más de un láser, éstos se separarían usando pipes `|`.
 
 Se sugiere tomar en cuenta para la entrada de datos un archivo que contenga la siguiente estructura:
 
